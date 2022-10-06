@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8e70951fed18149953f928e9dca0ae, type: 3}
+  m_Name: Fire Slime
+  m_EditorClassIdentifier: 
+  monName: Fire Slime
+  description: An elemental slime capable of dealing magic damage
+  sprite: {fileID: 21300000, guid: 657dbdaa58dbad142a636be4638ebdee, type: 3}
+  monClass1: 1
+  monClass2: 6
+  monRank: 0
+  monSize: 3
+  maxHP: 50
+  maxMP: 80
+  attack: 50
+  defense: 80
+  magAttack: 80
+  magDefense: 40
+  agility: 20
+  luck: 0
+  startingSkillTrees: []

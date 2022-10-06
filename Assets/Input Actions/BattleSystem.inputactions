@@ -1,0 +1,114 @@
+{
+    "name": "BattleSystem",
+    "maps": [
+        {
+            "name": "BattleSystem",
+            "id": "5b4cf77c-66a6-4f5a-82da-aa95f8cf7ed0",
+            "actions": [
+                {
+                    "name": "Cycle Left",
+                    "type": "Button",
+                    "id": "ac55486f-0599-4aea-9775-56ca29718b25",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cycle Right",
+                    "type": "Button",
+                    "id": "79b6273e-1e92-4e35-81d0-f1e53a0b7f2d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Submit",
+                    "type": "Button",
+                    "id": "2985363f-cb41-4bff-b018-12485993f559",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cycle Left Enemy",
+                    "type": "Button",
+                    "id": "f8fdbc5f-8e50-4081-b2ca-abc47675bdf0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cycle Right Enemy",
+                    "type": "Button",
+                    "id": "865ae8bf-9c45-4eee-88f7-fc43802190f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "207bb72c-5a45-4212-a33e-ee178453fc3f",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cycle Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "533e52f4-abbf-4867-82f5-1b88b576206e",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cycle Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "918aab73-8548-46ae-881c-418b75399cc2",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "013b1f1a-b9d3-48d1-abb1-ca542ea2a18c",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cycle Left Enemy",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95ad1992-ab3e-45d5-a678-70986efa6c7c",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cycle Right Enemy",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
